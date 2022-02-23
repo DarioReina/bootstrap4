@@ -1,6 +1,6 @@
 .row-header{
     margin:0 auto;
-    padding: 0;
+    padding: 70px 0 0 0;
 }
 .row.row-content{
     margin: 0 auto;
@@ -55,3 +55,4 @@ a:hover {
 a:active {
     color: black;
 }
+
