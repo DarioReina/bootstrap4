@@ -24,14 +24,7 @@ address{
     margin: 0;
     color: #0f0f0f;
 }
-ul{
-    list-style: none;
-    padding: 0;
-    margin-left: 10px;
-}
-li{
-    color: floralwhite;
-}
+
 body{
     padding: 54px 0 0 0;
     z-index: 0;
@@ -39,7 +32,19 @@ body{
 .navbar-dark{
     background-color:darkred;
 }
-
+.thead{
+    background-color:darkred;
+    color: floralwhite;
+}
+.tab-content{
+    padding: 10px;
+    border-left: 1px solid#ddd;
+    border-right: 1px solid#ddd;
+    border-bottom: 1px solid#ddd;
+}
+.nav-link{
+    color: black;
+}
 /**a {
     outline: none;
     text-decoration: none;
