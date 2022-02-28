@@ -68,6 +68,12 @@ body{
 .carousel-control-prev{
     width: 4%;
 }
+#carouselButton{
+    right: 0;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
 /**a {
     outline: none;
     text-decoration: none;
