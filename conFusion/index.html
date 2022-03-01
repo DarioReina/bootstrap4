@@ -153,8 +153,8 @@
                         </div>
                         <div class="modal-footer">
                             <div class="form-row">
-                                <button class="btn btn-outline-secondary" data-dismiss="modal" type="reset">Cancel</button>
-                                <button class="btn btn-outline-primary ml-1" type="submit">Reserve</button>
+                                <button class="btn btn-secondary" data-dismiss="modal" type="reset">Cancel</button>
+                                <button class="btn btn-primary ml-1" type="submit">Reserve</button>
                             </div>
                         </div>
                     </form>
@@ -174,7 +174,7 @@
                         <img src="img/logo.png" class="img-fluid">
                     </div>
                     <div class="col-12 col-sm align-self-center">
-                         <button class="btn btn-outline-warning btn-block" data-toggle="modal" data-target="#reserve">Reserve Table</button>
+                         <button class="btn btn-outline-warning btn-block" id="openreserv">Reserve Table</button>
                     </div>
                 </div>
             </div>
@@ -188,7 +188,7 @@
                                 <img class="d-block img-fluid"
                                      src="img/uthappizza.png" alt="uthappizza">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h2>Uthappizza<span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary">$4.99</span>
+                                    <h2>Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary">$4.99</span>
                                     </h2>
                                     <p class="d-none d-sm-block text-justify">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
                                 </div>
@@ -348,6 +348,13 @@
                 }
                 });
             })
+        </script>
+        <script>
+            $(document).ready(function (){
+                $('#openreserv').click(function (){
+                    $('#reserve').modal('show');
+                });
+            });
         </script>
    <!--     <script>$(document).ready(function (){
             $('[data-toggle="tooltip"]').tooltip();
