@@ -85,12 +85,17 @@ body{
     .modal-header {
       background:$background-dark;
       color: floralwhite;
+      border-bottom: none;
       button {
         color: floralwhite;
       }
     };
     .modal-body {
       background:$background-pale;
+    }
+    .modal-footer{
+      background: $background-dark;
+      border-top:none;
     }
   }
 }

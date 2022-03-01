@@ -59,14 +59,14 @@ body {
 
 .modal .modal-content .modal-header {
   background: #512DA8;
-  color: floralwhite; }
-
-.modal .modal-content .modal-footer{
-  background: #512DA8;
-}
-
+  color: floralwhite;
+  border-bottom: none; }
   .modal .modal-content .modal-header button {
     color: floralwhite; }
 
 .modal .modal-content .modal-body {
   background: #D1C4E9; }
+
+.modal .modal-content .modal-footer {
+  background: #512DA8;
+  border-top: none; }
